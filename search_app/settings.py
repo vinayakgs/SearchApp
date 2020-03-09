@@ -25,7 +25,7 @@ SECRET_KEY = '#ovc_^6unmw@ch8ub+wv@(_zpr3iis5ukfoyzg3ha$l@25t6+4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djsearchapp.herokuapp.com',]
+ALLOWED_HOSTS = ['127.0.0.1', 'djsearchapp.herokuapp.com',]
 
 # Application definition
 
@@ -116,7 +116,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-STATIC_ROOT = os.path.join(BASE_DIR, 'search_app/static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
