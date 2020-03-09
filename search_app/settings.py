@@ -23,9 +23,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")
 SECRET_KEY = '#ovc_^6unmw@ch8ub+wv@(_zpr3iis5ukfoyzg3ha$l@25t6+4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['djsearchapp.herokuapp.com',]
 
 # Application definition
 
